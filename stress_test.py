@@ -9,5 +9,6 @@ while True:
     math.factorial(50000)
 
 
+
 # TODO: Write the intensive computation loop here
 # Follow the instructions in the Lab manual.
