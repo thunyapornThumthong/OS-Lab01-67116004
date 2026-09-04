@@ -1,16 +1,16 @@
 ======================================================
 COE67-XXX Operating Systems - Lab 01 Report
-Name: 
-Student ID: 
+Name: Thunnyaporn Thumthong
+Student ID: 67116004
 ======================================================
 
-1. Hardware Baseline:
-- OS Version:
-- Number of CPU Cores:
-- Total RAM:
+1. Hardware Baseline:Ubuntu 22.04.1 LTS (Linux kernel, x86_64)
+- OS Version:22.04.1
+- Number of CPU Cores:2
+- Total RAM:7.76 GB
 
 2. Observation (from htop during stress test):
-[Write your answer here]
+[มีแค่ 1 core ที่ขึ้นไปเกือบ/เท่ากับ 100% ส่วนอีก core เฉย ๆ — แปลว่าโปรแกรม Python เธรดเดียวใช้ได้แค่ core เดียวเท่านั้น ไม่ว่าเครื่องจะมีกี่ core ]
 
 3. Analysis:
-[Write your answer here]
+[การรู้สเปกเครื่อง (RAM/CPU) ก่อนเริ่มงาน ML สำคัญมาก เพราะถ้าข้อมูล (เช่น 500,000 รูป) มีขนาดเกิน RAM ที่มี จะทำให้ระบบ swap หนักหรือโปรแกรมถูก OS ฆ่าทิ้ง (OOM) และถ้าไม่รู้ว่ามีกี่ core ก็จะเขียนโค้ดที่ใช้ได้แค่ core เดียวโดยไม่รู้ตัว]
