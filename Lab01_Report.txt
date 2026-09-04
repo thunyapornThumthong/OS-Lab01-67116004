@@ -1,6 +1,5 @@
 ======================================================
 COE67-XXX Operating Systems - Lab 01 Report
-<<<<<<< HEAD
 Name: Thunnyaporn Thumthong
 Student ID: 67116004
 ======================================================
